@@ -1,0 +1,71 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+artifacts/
+
+# Rider / JetBrains IDE
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.bak
+
+# VS Code
+.vscode/
+
+# Auto-generated files
+Generated_Code/
+launchSettings.json
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Publish output
+publish/
+wwwroot/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local database
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Secrets and configs
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Docker
+**/docker-compose.override.yml
