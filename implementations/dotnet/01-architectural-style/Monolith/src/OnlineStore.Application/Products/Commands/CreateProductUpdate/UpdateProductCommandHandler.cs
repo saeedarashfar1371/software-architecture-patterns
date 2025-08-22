@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using OnlineStore.Domain.Interfaces;
 
-namespace OnlineStore.Application.Products.Commands.CreateProduct;
+namespace OnlineStore.Application.Products.Commands;
 
 public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, Guid>
 {

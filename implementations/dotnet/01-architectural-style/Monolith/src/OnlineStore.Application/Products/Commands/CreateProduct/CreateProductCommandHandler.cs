@@ -2,7 +2,7 @@
 using OnlineStore.Domain.Entities;
 using OnlineStore.Domain.Interfaces;
 
-namespace OnlineStore.Application.Products.Commands.CreateProduct;
+namespace OnlineStore.Application.Products.Commands;
 
 public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, Guid>
 {

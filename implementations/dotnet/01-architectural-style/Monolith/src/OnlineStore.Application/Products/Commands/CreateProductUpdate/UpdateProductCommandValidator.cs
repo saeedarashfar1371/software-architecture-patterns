@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace OnlineStore.Application.Products.Commands.CreateProduct;
+namespace OnlineStore.Application.Products.Commands;
 
 public class UpdateProductCommandValidator : AbstractValidator<CreateProductCommand>
 {

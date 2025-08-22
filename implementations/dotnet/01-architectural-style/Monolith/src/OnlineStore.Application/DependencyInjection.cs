@@ -1,8 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MediatR;
 using FluentValidation;
-using AutoMapper;
 using System.Reflection;
+using OnlineStore.Application.Services;
 
 namespace OnlineStore.Application;
 
@@ -14,6 +13,7 @@ public static class DependencyInjection
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddAutoMapper(cfg => { }, Assembly.GetExecutingAssembly());
 
+        services.AddScoped<ITaxCalculator, TaxCalculator>();
 
         return services;
     }

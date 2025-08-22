@@ -1,5 +1,5 @@
 ﻿using MediatR;
-namespace OnlineStore.Application.Products.Commands.CreateProduct;
+namespace OnlineStore.Application.Products.Commands;
 
 public class UpdateProductCommand : IRequest<Guid>
 {
