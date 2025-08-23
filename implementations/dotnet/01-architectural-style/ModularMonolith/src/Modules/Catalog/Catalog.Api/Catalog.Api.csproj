@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- چون API نمی‌سازیم، فقط این پکیج کافیه -->
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+        <ProjectReference Include="..\..\..\OnlineStore.BuildingBlocks\OnlineStore.BuildingBlocks.csproj" />
+
+        <!-- وابستگی به پروژه‌های دیگر ماژول -->
+        <ProjectReference Include="..\Catalog.Application\Catalog.Application.csproj" />
+        <ProjectReference Include="..\Catalog.Infrastructure\Catalog.Infrastructure.csproj" />
+    </ItemGroup>
+</Project>
